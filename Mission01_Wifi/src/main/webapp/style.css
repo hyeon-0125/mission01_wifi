@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+.atag {
+	text-align: center;
+}
+
+.table_no_title_ui {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid;
+}
+
+.table_no_title_ui td, #table_ui th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.table_no_title_ui tr:nth-child(even){background-color: #f2f2f2;}
+
+.table_no_title_ui tr:hover {background-color: #ddd;}
+
+.table_no_title_ui th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #04AA6D;
+  color: white;
+  border: 1px solid;
+}
